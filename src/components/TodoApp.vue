@@ -1,6 +1,6 @@
 <template>
   <div class="container-app">
-    <h2 class="text-center mt-5">My Vue Todo App</h2>
+    <h2 class="text-center mt-5">To-Do App</h2>
 
     <!-- Input -->
     <div class="d-flex">
@@ -14,8 +14,8 @@
         <tr>
           <th scope="col" class="text-center">Task </th>
           <th scope="col" class="text-center">Status</th>
-          <th scope="col" class="text-center">#</th>
-          <th scope="col" class="text-center">#</th>
+          <th scope="col" class="text-center">Edit</th>
+          <th scope="col" class="text-center">Delete</th>
         </tr>
       </thead>
       <tbody>
